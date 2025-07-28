@@ -1,0 +1,35 @@
+{
+  "name": "@arklo/toolbox",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Just a bunch of helper functions for graphics",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "tsc": "tsc",
+    "dev": "tsc --watch",
+    "serve": "npx http-server"
+  },
+  "dependencies": {
+    "chroma-js": "^3.1.2",
+    "delaunator": "^5.0.0",
+    "lodash": "^4.17.21",
+    "p5": "^1.11.1",
+    "poisson-disk-sampling": "^2.3.1",
+    "radash": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/chroma-js": "^3.1.1",
+    "@types/delaunator": "^5.0.0",
+    "@types/lodash": "^4.17.20",
+    "@types/node": "18.11.9",
+    "@types/p5": "^1.7.6",
+    "prettier": "^3.6.2",
+    "typescript": "^4.6.4"
+  }
+}

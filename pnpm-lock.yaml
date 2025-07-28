@@ -1,0 +1,118 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  chroma-js:
+    specifier: ^3.1.2
+    version: 3.1.2
+  delaunator:
+    specifier: ^5.0.0
+    version: 5.0.1
+  lodash:
+    specifier: ^4.17.21
+    version: 4.17.21
+  p5:
+    specifier: ^1.11.1
+    version: 1.11.9
+  poisson-disk-sampling:
+    specifier: ^2.3.1
+    version: 2.3.1
+  radash:
+    specifier: ^7.1.0
+    version: 7.1.0
+
+devDependencies:
+  '@types/chroma-js':
+    specifier: ^3.1.1
+    version: 3.1.1
+  '@types/delaunator':
+    specifier: ^5.0.0
+    version: 5.0.3
+  '@types/lodash':
+    specifier: ^4.17.20
+    version: 4.17.20
+  '@types/node':
+    specifier: 18.11.9
+    version: 18.11.9
+  '@types/p5':
+    specifier: ^1.7.6
+    version: 1.7.6
+  prettier:
+    specifier: ^3.6.2
+    version: 3.6.2
+  typescript:
+    specifier: ^4.6.4
+    version: 4.9.5
+
+packages:
+
+  /@types/chroma-js@3.1.1:
+    resolution: {integrity: sha512-SFCr4edNkZ1bGaLzGz7rgR1bRzVX4MmMxwsIa3/Bh6ose8v+hRpneoizHv0KChdjxaXyjRtaMq7sCuZSzPomQA==}
+    dev: true
+
+  /@types/delaunator@5.0.3:
+    resolution: {integrity: sha512-6tTLP8NX0OwtB/fmW9bXp4EWPptawTSsrSGjboWRuzqkxNEEJGyzRPHbr8wnV2DBWfAZ+EPTOvW3B/KysJrl2g==}
+    dev: true
+
+  /@types/lodash@4.17.20:
+    resolution: {integrity: sha512-H3MHACvFUEiujabxhaI/ImO6gUrd8oOurg7LQtS7mbwIXA/cUqWrvBsaeJ23aZEPk1TAYkurjfMbSELfoCXlGA==}
+    dev: true
+
+  /@types/node@18.11.9:
+    resolution: {integrity: sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==}
+    dev: true
+
+  /@types/p5@1.7.6:
+    resolution: {integrity: sha512-6pLTOo0V3N5jZb5nTwjiv3lPHLK3Z/TjbhQUj8CTWXocUk1Z/f6OHTp3Pcwi1BhWnf5gqKUcyEb1gP0KIJuQgw==}
+    dev: true
+
+  /chroma-js@3.1.2:
+    resolution: {integrity: sha512-IJnETTalXbsLx1eKEgx19d5L6SRM7cH4vINw/99p/M11HCuXGRWL+6YmCm7FWFGIo6dtWuQoQi1dc5yQ7ESIHg==}
+    dev: false
+
+  /delaunator@5.0.1:
+    resolution: {integrity: sha512-8nvh+XBe96aCESrGOqMp/84b13H9cdKbG5P2ejQCh4d4sK9RL4371qou9drQjMhvnPmhWl5hnmqbEE0fXr9Xnw==}
+    dependencies:
+      robust-predicates: 3.0.2
+    dev: false
+
+  /lodash@4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
+
+  /moore@1.0.0:
+    resolution: {integrity: sha512-xcsFo/jgtMuVaGePHod5TdSzxnRAQQ4wFpDmFuu34lHvx5sNMsioA84NW7iBWYZ10jHR/nyGaDkhunMJxqAzkw==}
+    dev: false
+
+  /p5@1.11.9:
+    resolution: {integrity: sha512-sx0UdE3/0DO+yx11fWGSpGgm/oJV/hgZeJUvcvZvsNKI3G7kVTILUfjngAxiw4wEd1F7XDpv37YNYA9gOieqNQ==}
+    dev: false
+
+  /poisson-disk-sampling@2.3.1:
+    resolution: {integrity: sha512-O3TzHR8IA+Do5zC7EgPdHLOYOpUJ6DikiTwqRqXdSPUhx1ZqfeH6PqAD86KKi+8Nq8vnL2navErsgURKTe089w==}
+    dependencies:
+      moore: 1.0.0
+    dev: false
+
+  /prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
+  /radash@7.1.0:
+    resolution: {integrity: sha512-NOWTaF5YMY3mCgrNq9Fw9fK8yvJv92uqRb2StcVq5W8kcJ6949EbV2vk6nLJKAocYs29rzJafZZP1lFkEkoVGw==}
+    dev: false
+
+  /robust-predicates@3.0.2:
+    resolution: {integrity: sha512-IXgzBWvWQwE6PrDI05OvmXUIruQTcoMDzRsOd5CDvHCVLcLHMTSYvOK5Cm46kWqlV3yAbuSpBZdJ5oP5OUoStg==}
+    dev: false
+
+  /typescript@4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
