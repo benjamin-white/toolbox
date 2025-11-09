@@ -15,7 +15,7 @@ export const displacementFromImage = (
       const imageData = ctx.getImageData(0, 0, width, height)
       const pixels: number[] = []
       for (let i = 0; i < imageData.data.length; i += 4) {
-        pixels.push(imageData.data[i])
+        pixels.push(imageData.data[i] / 255)
       }
       resolve(pixels)
     }
